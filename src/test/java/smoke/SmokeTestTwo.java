@@ -43,6 +43,12 @@ public class SmokeTestTwo {
         System.out.println("Class - SmokeTestTwo : and Method is SmokeTestOneMethodFour()");
         Assert.assertEquals(true, true);
     }
+    @Test
+    public void SmokeTestTwoMethodFive() {
+        
+        System.out.println("Class - SmokeTestTwo : and Method is SmokeTestOneMethodFour()");
+        Assert.assertEquals(true, true);
+    }
   @BeforeMethod
   public void beforeMethod() {
       System.out.println("Class - SmokeTestTwo : and Method is beforeMethod()");
